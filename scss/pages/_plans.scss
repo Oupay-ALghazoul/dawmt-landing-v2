@@ -1,0 +1,56 @@
+.plans-section {
+    .plan-list {
+
+        .plan-content {
+
+            margin-bottom: 16px;
+
+            .plan-header {
+                border-top-left-radius: 16px;
+                border-top-right-radius: 16px;
+                background-color: #F9F9F9;
+                padding: 16px 24px;
+                box-shadow: 0px 16px 38px -12px rgba(0, 0, 0, 0.25);
+            }
+
+            .plan-body {
+                padding: 24px;
+                border-bottom-left-radius: 16px;
+                border-bottom-right-radius: 16px;
+                color: #ffffff;
+                box-shadow: 0px 16px 38px -12px rgba(0, 0, 0, 0.25);
+
+                .details-item {
+                    display: flex;
+                    align-items: center;
+
+                    ion-icon {
+                        font-size: 1.6rem;
+                    }
+
+                    span {
+                        padding: 8px;
+                    }
+                }
+
+                button {
+                    font-size: 1.2rem;
+                }
+            }
+        }
+
+        .plan-primary-bg {
+            background-image: url('/assets/svg/plan-primary.svg');
+            background-color: #165F9A;
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+
+        .plan-secondary-bg {
+            background-image: url('/assets/svg/plan-secondary.svg');
+            background-color: #f99429;
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+    }
+}

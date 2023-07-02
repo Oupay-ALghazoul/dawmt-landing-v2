@@ -1,0 +1,103 @@
+.emp-self-service-section {
+    .emp-self-service-items {
+
+        .e-service-card {
+            position: relative;
+            background-color: #F9F9F9;
+            border-radius: 36px;
+            box-shadow: 0px 16px 38px -12px rgba(0, 0, 0, 0.2509803922);
+            transition: all 0.2s ease-in-out;
+            cursor: pointer;
+            padding: 40px 30px;
+            text-align: center;
+
+            .card-count {
+                position: absolute;
+                top: -28px;
+                right: 32px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                color: #F9F9F9;
+                background-color: #FAAF40;
+                border-radius: 18px 5px 10px 5px;
+                font-size: 1.6rem;
+                width: 50px;
+                height: 50px;
+            }
+
+            &.card-1,
+            &.card-5 {
+                margin-left: 140px;
+            }
+
+            &.card-2,
+            &.card-6 {
+                margin-top: 60px;
+                margin-left: 20px;
+                margin-right: 120px;
+            }
+
+            &.card-3 {
+                margin-right: 140px;
+            }
+
+            &.card-4 {
+                margin-top: 60px;
+                margin-right: 20px;
+                margin-left: 120px;
+            }
+        }
+
+        .bg-screen-1 {
+            background: url('/assets/svg/Ellipse1.svg');
+            background-position: center;
+            background-size: contain;
+            background-repeat: no-repeat;
+
+            img {
+                width: 280px;
+                display: block;
+                margin: auto;
+            }
+        }
+
+        .bg-screen-2 {
+            background: url('/assets/svg/Ellipse1.svg');
+            background-size: min(40vw, 500px);
+            background-repeat: no-repeat;
+            background-position-x: 100px;
+            background-position-y: 100px;
+
+        }
+
+    }
+
+    @media (max-width: 576px) {
+
+        .e-service-card {
+
+            &.card-1,
+            &.card-5 {
+                margin-left: 0 !important;
+            }
+
+            &.card-2,
+            &.card-6 {
+                margin-left: 0 !important;
+                margin-right: 0 !important;
+            }
+
+            &.card-3 {
+                margin-right: 0 !important;
+            }
+
+            &.card-4 {
+                margin-right: 0 !important;
+                margin-left: 0 !important;
+            }
+
+        }
+    }
+
+}

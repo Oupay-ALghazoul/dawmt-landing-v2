@@ -1,0 +1,28 @@
+
+// ------------- Bootstrap ------------- 
+@import 'bootstrap/variables';
+@import 'bootstrap/extend';
+@import 'bootstrap/custom';
+
+// ------------- RTL ------------- 
+@import 'rtl';
+
+// ------------- Global ------------- 
+@import 'global';
+
+// ------------- Components ------------- 
+@import 'components/header';
+@import 'components/footer';
+@import 'components/to-top';
+@import 'components/social-links-side';
+
+// ------------- Pages ------------- 
+@import 'pages/home';
+@import 'pages/app-functions';
+@import 'pages/contact-us';
+@import 'pages/dawnt-values';
+@import 'pages/plans';
+@import 'pages/faq';
+@import 'pages/media';
+
+

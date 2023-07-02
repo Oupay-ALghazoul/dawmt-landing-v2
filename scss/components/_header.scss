@@ -1,0 +1,96 @@
+header {
+    backdrop-filter: blur(6px);
+    background-color: #ffffff5e;
+
+    .active {
+        a {
+            color: $secondary;
+            font-weight: bold;
+        }
+    }
+
+    &.navbar {
+        .logo {
+            width: calc(2em + 2vw);
+            min-width: 60px;
+        }
+
+        .primary-outline-site-btn.menu-btn {
+            font-size: 1.6rem;
+            padding: 10px 16px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .navbar-nav {
+            .nav-item {
+                .nav-link {
+                    padding: 24px 16px;
+                    font-weight: 500;
+
+                    &:hover {
+                        color: $secondary;
+                    }
+                }
+
+                &.select-lang {
+                    .nav-link {
+                        padding: 10px 24px;
+                        display: flex;
+                        align-items: center;
+                    }
+
+                    #lang-dropdown {
+                        .dropdown-toggle::after {
+                            display: none
+                        }
+
+                        ion-icon {
+                            margin-left: 12px;
+                            font-size: 2rem;
+                            font-weight: 400;
+                            transition: all .2s;
+                        }
+
+                        .flip {
+                            transform: rotate(180deg);
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    .dropdown-menu {
+        transition: all .2s;
+        border: none;
+        box-shadow: 0px 32px 46px #00000040;
+    }
+
+    @media (min-width: 992px) {
+        &.navbar {
+
+            .primary-outline-site-btn.menu-btn {
+                display: none;
+            }
+        }
+    }
+}
+
+.rtl {
+    header.navbar {
+        .navbar-nav {
+            .nav-item {
+                &.select-lang {
+                    #lang-dropdown {
+                        ion-icon {
+                            margin-right: 12px;
+                        }
+                    }
+                }
+
+            }
+        }
+    }
+}

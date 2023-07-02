@@ -1,0 +1,71 @@
+@for $i from 6 through 10 {
+    .m-#{$i} {
+        margin: #{$i - 1}rem !important;
+    }
+
+    .mx-#{$i} {
+        margin-right: #{$i - 1}rem !important;
+        margin-left: #{$i - 1}rem !important;
+    }
+
+    .my-#{$i} {
+        margin-top: #{$i - 1}rem !important;
+        margin-bottom: #{$i - 1}rem !important;
+    }
+
+    .m-n#{$i} {
+        margin: -#{$i - 1}rem !important;
+    }
+
+    .mt-#{$i} {
+        margin-top: #{$i - 1}rem !important;
+    }
+
+    .mb-#{$i} {
+        margin-bottom: #{$i - 1}rem !important;
+    }
+
+    .ltr .ms-#{$i} {
+        margin-left: #{$i - 1}rem !important;
+    }
+
+    .ltr .me-#{$i} {
+        margin-right: #{$i - 1}rem !important;
+    }
+
+    .rtl .ms-#{$i} {
+        margin-right: #{$i - 1}rem !important;
+    }
+
+    .rtl .me-#{$i} {
+        margin-left: #{$i - 1}rem !important;
+    }
+
+    // .................... //
+    .p-#{$i} {
+        margin: #{$i - 1}rem !important;
+    }
+
+    .px-#{$i} {
+        margin-right: #{$i - 1}rem !important;
+        margin-left: #{$i - 1}rem !important;
+    }
+
+    .py-#{$i} {
+        margin-top: #{$i - 1}rem !important;
+        margin-bottom: #{$i - 1}rem !important;
+    }
+
+    .p-n#{$i} {
+        margin: -#{$i - 1}rem !important;
+    }
+
+    .pt-#{$i} {
+        margin-top: #{$i - 1}rem !important;
+    }
+
+    .pb-#{$i} {
+        margin-bottom: #{$i - 1}rem !important;
+    }
+
+  }

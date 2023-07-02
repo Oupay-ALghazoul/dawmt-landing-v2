@@ -1,0 +1,19 @@
+body.rtl {
+    direction: rtl;
+    .ms-auto {
+        margin-left: unset !important;
+        margin-right: auto !important;
+    }
+
+    .me-auto {
+        margin-left: auto !important;
+        margin-right: unset !important;
+    }
+
+    .accordion-button {
+        &::after {
+            margin-right: auto;
+            margin-left: 0;
+        }
+    }
+}

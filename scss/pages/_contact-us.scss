@@ -1,0 +1,33 @@
+.contact-section {
+
+    input[type="email"] {
+        direction: ltr;
+    }
+
+    .contact-info {
+
+        .info-card {
+            box-shadow: 0px 16px 38px -12px rgba(0, 0, 0, 0.2509803922);
+            padding: 16px;
+            background-color: #F3F1F1;
+            border-radius: 16px;
+
+            .info-card-item {
+                padding: 8px;
+                display: flex;
+                align-items: center;
+                justify-content: start;
+                a {
+                    text-decoration: none;
+                    color: #222222;
+                    margin: auto 12px;
+                }
+
+                ion-icon {
+                    font-size: 1.4rem;
+                    color: $primary;
+                }
+            }
+        }
+    }
+}
